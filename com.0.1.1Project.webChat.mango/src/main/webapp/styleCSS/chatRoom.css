@@ -1,0 +1,157 @@
+@charset "UTF-8";
+body{	background-color: #ffcf2d;}
+
+.divMatginAuto {margin: auto;}
+/* div {margin: auto;} */
+
+#warp {
+	overflow:hidden;
+	position:relative;
+		height: 750px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+#ChatArea{
+	/*0.1.0 업데이트*/
+	min-height:80px;
+	max-height:500px;
+   display: flex;
+   flex-direction:column-reverse ;
+   overflow-y: auto; /* 부모 요소를 벗어나면 스크롤 나타나도록 함 */
+       overflow-x: hidden; /* 가로 스크롤 숨김 */
+   
+		
+		width: 600px;
+		margin: auto;
+/* 	flex-flow: row; */
+		background-color:white;
+		border-radius: 12px;
+		padding-left: 20px;
+		
+	
+}
+
+.Chat_main_box {
+	padding:15px;
+	margin:auto;
+	width: 600px;
+	display:flex;
+	flex-flow:row;
+}
+
+.Chat_user_img {
+	position:relative;
+	top:0px;
+	margin-top:0px;
+	border-radius: 100%;
+	overflow: hidden;
+	width: 70px;
+	height: 70px;
+}
+.Chat_user_img > img{
+	width: 100%;
+}
+
+
+.Chat_user_box {
+	margin-left:10px;
+	width: 530px;
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
+}
+.Chat_user_names_box {
+	text-align:left;
+	align-items: center;
+	height: 30px;
+	padding-left:5px;
+	color: gray;
+	font-size: 8pt;    
+}	
+.Chat_user_names_box>h1{
+	    display: inline; /* <h1> 태그를 인라인으로 표시하여 한 줄에 표시 */
+	color: black;
+	font-weight: 500;
+	margin-right: 10px;
+}
+.Chat_User_Main_Chat {
+	    word-wrap: break-word; /* 긴 단어를 줄 바꿈 처리 */
+	text-align:left;
+	align-items: center;
+	padding: 5px;
+}
+
+#mydiv{margin-right: 0px;}
+
+.Chat_MY_main_box {
+	padding:10px;
+	padding:5px;
+	text-align:right;
+	position: relative;
+	width: 500px;
+	height:auto;
+	display:flex;
+	justify-content:flex-end;
+}
+
+.Chat_MY_user_box {
+	display:flex;
+	justify-content:flex-end;
+		padding:0xp;
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
+	text-align:right;
+}
+.Chat_MY_user_names_box {
+	text-align:right;
+	height: 20px;
+	padding-right:5px;
+	color: gray;
+	font-size: 8pt; 
+	opacity: 50%;  
+}	
+.Chat_MY_User_Main_Chat {
+	    word-wrap: break-word; /* 긴 단어를 줄 바꿈 처리 */
+	    border-radius: 12px;
+	    background-color:#fff4ce;
+	    max-width:75%;
+	    	padding-right:0px;
+	text-align:left;
+	padding: 8px;
+}
+
+
+#Chat_Input_area{
+	/*0.1.0번전 업데이트*/
+	position:absolute; 
+	bottom:0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	
+	margin:auto;
+	width: 600px;
+	height: 100px;
+	background-color: white;
+	border-radius: 12px;
+	margin-top: 15px;
+			padding: 10px;
+			display: flex;
+			justify-content: center;
+}
+
+.textarea input {
+    border: none;
+    outline: none;
+    height: 55px;
+    width:555px;
+    	align-items: center;
+    	text-align: left;
+    	font-size: 10pt;
+    margin-top: 10px;
+    resize : none;
+    overflow: auto;
+    background-color: #eeeeee;
+    border-radius: 12px;
+    padding: 15px;
+    line-height: 23px;
+}

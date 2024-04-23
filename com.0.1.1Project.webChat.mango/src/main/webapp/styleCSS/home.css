@@ -1,0 +1,122 @@
+@charset "UTF-8";
+b{
+	font-weight: 600;
+}
+
+/*채팅 리스트*/
+#roomNo{ 
+	background-color: green;
+}
+
+
+#main {
+/* 	background-color: blue; */
+	width: 70%;
+/* 	height: 100vh; */
+	margin: auto;
+	margin-top:50px;
+	z-index: 999;
+}
+
+#top {
+	background-color: red;
+	width: 100%;
+	height: 100px;
+}
+
+#mid {
+/* 	background-color: lightyellow; */
+	display: flex;
+	width: 100%;
+	height: 800px;
+	z-index: 999;
+	
+}
+
+/* 채팅방 목록 시작  */
+#midLeft {
+	background-color: lightblue;
+	width: 17vw;
+	height: 797px;
+	overflow: scroll;
+	border: 1px solid #ccc;
+	min-width: 250px;
+}
+
+#chatTop {
+	width: 27vw;
+	height: 100px;
+}
+
+#topText{
+	margin-top: 12px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+/* 중앙 채팅창 영역 */
+#midCenter { 
+	z-index: 999;
+	background-color: lightgreen;
+	width: 65vw;
+	min-width: 300px;
+	height: 800px;
+	overflow: hidden;
+	
+}
+
+#midChat{
+	overflow: scroll;
+	height: 800px;
+}
+
+#midRight {
+/* 	background-color: green; */
+	width: 18vw;
+	height: 800px;
+	margin-left:4px; 
+	border-left: 1px black solid;
+	padding-left: 8px;
+	
+}
+
+#midProfile {
+/* 	background-color: #ffcf2d; */
+	width: 17vw;
+	height: 150px;
+	border:  1px black solid;
+	border-radius: 15px;
+	padding: 10px;
+	margin-bottom: 20px;
+		padding-left: 15px;
+}
+
+#ProfileImage{
+	width: 60px;
+	height: 60px;
+	margin-top: 30px;
+	border-radius: 15px;
+}
+#ProfileText{
+	margin-left: 10px;
+	margin-top: 5px;
+	width: 300px;
+	text-align: left;
+	padding-top: 10px;
+}
+
+
+#midFriend {
+/* 	background-color: pink; */
+	width: 18vw;
+	height: 620px;
+	overflow: auto;
+	position:relative;
+}
+
+#bot{
+/* 	background-color: gray; */
+border-top:1px black solid; 
+	width: 100%;
+	height: 60px;
+}
